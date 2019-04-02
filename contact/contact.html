@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yates Spearman | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../shared.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="contact.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../queries.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <nav class="main-nav">
+        <ul class="main-nav__list">
+            <li class="home--button"><a href="../index.html">Home</a></li>
+            <li><a href="../biography/biography.html">Biography</a></li>
+            <li><a href="../resume/resume.html">Resume</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
+            <li class="active"> <a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <section class="header">
+        <h1 tabindex="0" id="main">Contact</h1>
+    </section>
+
+    <section class="form-container">
+        <div class="contact-form__container">
+            <form method="post" action="#" class="contact-form">
+                <legend>Please Submit Your Contact Information</legend>
+
+                <div class="row">
+                    <label for="name" tabindex="0">Name</label>
+                    <div class="response">
+                        <input type="text" name="name" id="name" placeholder="Your Name Here" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="email" tabindex="0">Email</label>
+                    <div class="response">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="phone-number" tabindex="0">Phone Number</label>
+                    <div class="response">
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" minlength="7" maxlength="10" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="company" tabindex="0">Company Name</label>
+                    <div class="response">
+                        <input type="text" name="company" id="company" placeholder="Company Name">
+                    </div>    
+                </div>
+
+
+                <div class="row comments">
+                    <label for="comments" tabindex="0">Comments or Questions</label>
+                    <div class="response">
+                        <textarea name="comments" id="comments" placeholder="Post Any Comments or Questions Here"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" value="Send!" class="submit" id="submit">
+                </div>
+                
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+                <a href="https://www.roadtohire.org/"><p class="links">Road To Hire</p></a>
+                <a href="https://www.linkedin.com/in/yates-spearman-822828168/"><p class="links">LinkedIn</p></a>
+            <a href="../index.html"><p>Copyright &copy; 2018 by Yates Spearman Industries</p></a>
+            
+        </div>
+
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../jquery.validate.min.js"></script>
+<script src="../contact.js"></script>
+</html>

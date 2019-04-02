@@ -1,0 +1,50 @@
+.biographyTitle {
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.col {
+    width: 48%;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.final {
+    display: block;
+    margin: auto;
+}
+
+.col p {
+    text-align: center;
+}
+
+.rowBio {
+    height: 120px;
+    background-color: #dfdfdf;
+    vertical-align: middle;
+}
+
+
+
+.col-span-3 {
+    width: 32%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.col-span-3 img {
+
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 35%;
+    margin-top: 3%;
+    /*position: relative;
+    left: 10px;*/
+    
+}

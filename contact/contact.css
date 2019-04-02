@@ -1,0 +1,48 @@
+.header h1 {
+    width: 100vw;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    
+}
+
+.contact-form__container {
+    width: 80%;
+    height: 30rem;
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+legend {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    padding-top: .2rem;
+}
+
+.row {
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+}
+
+.submit {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+.response {
+    float: right;
+    margin: 2px;
+}
+.error {
+    color: red;
+    font-size: .9rem;
+    display: inline-block;
+    padding-right: .5rem;
+}

@@ -1,0 +1,270 @@
+/* Test */
+@media only screen and (min-width: 767px) {
+    
+    /* -----MAIN PAGE----- */
+    .display {
+        background-color: white;
+        display: block;
+    }
+    .display--container {
+        width: 40vw;
+        height: 40vw;
+        background-color: #b8b8b8;
+        display: inline-block;
+        margin: auto;
+        border-radius: 8px;
+        margin-bottom: 80px;
+        margin-left: 6%;
+        
+    }
+    .resume {
+        float: right;
+        margin-right: 6%;
+    }
+    .contact {
+        float: right;
+        margin-right: 6%;
+    }
+
+    /* -----CONTACT PAGE----- */
+    
+    .contact-form__container {
+        width: 80vw;
+        height: 100%;
+        background-color: rgb(238, 238, 238);
+        border-radius: 8px;
+        margin: 0 10% 10% 10%;
+        margin-bottom: 30px;
+        
+    }
+    .row {
+        text-align: center;
+        width: 100%;
+        display: block;
+
+    }
+    .comments {
+        text-align: center;
+    }
+    .response {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .response input {
+        display: block;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .contact-form__container textarea {
+        display: block;
+        width: 60%;
+        margin: auto;
+        height: 100px;
+    }
+
+    .submit {
+        position: relative;
+        top: 5px;
+    }
+
+    /* -----RESUME PAGE----- */
+    .iframe-holder {
+        
+        display: inline-block;
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        
+    }
+
+    .iframe {
+        display: inline-block;
+        width: 40vw;
+        height: 100vw;
+        margin: 10% 10%;
+        border-radius: 16px;
+        float: right;
+        
+    }
+    .resume-holder {
+        width: 45vw;
+        margin-bottom: 70px;
+    }
+
+    /* -----BIOGRAPHY PAGE----- */
+    .final {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    .rowBio {
+        margin-bottom: 60px; 
+    }
+
+    /* -----Gallery PAGE----- */
+    .gallery-image-container {
+        display: inline-block;
+        width: 48%;
+       /* margin: auto; */
+       margin-left: 1%;
+    }
+    .gallery-image-container img {
+        height: 30vw;
+        width: 30vw;
+        display: inline-block;
+        /*margin: auto;*/
+        padding: 20px;
+        border-radius: 50px;
+        position: relative;
+        left: 15%;
+    }
+    .gallery-image-container p {
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+   /* -----MAIN PAGE----- */
+    .display {
+        width: 100%;
+        height: 80%;
+        display: block;
+    }
+    
+    .display--container {
+        width: 80vw;
+        height: 80vw;
+        background-color: #b8b8b8;
+        display: inline-block;
+        margin: 0 10%;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        
+    }
+
+
+    /* -----CONTACT PAGE----- */
+    
+
+    .contact-form__container {
+        width: 80%;
+        height: 100%;
+        background-color: rgb(238, 238, 238);
+        border-radius: 8px;
+        margin: auto;
+        margin-bottom: 30px;
+        
+    }
+    
+    .row {
+        display: inline-block;
+        padding: 4px;
+        margin: auto;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .submit {
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+    
+    .response {
+        float: right;
+        margin: 2px;
+        display: inline;
+        
+    }
+    .contact-form__container textarea {
+        float: right;
+        margin: 2px;
+        display: inline;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .response input {
+        float: right;
+        display: inline;
+        width: auto;
+        
+    }
+    .error {
+        display: block;
+    }
+    
+/* -----RESUME PAGE----- */
+    .iframe {
+        /*display: inline-block;
+        width: 80vw;
+        height: 100vh;
+        margin: 10% 10%;
+        border-radius: 16px;*/
+        display: none;
+    }
+
+    .resume-holder {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+   
+
+    /* -----BIOGRAPHY PAGE----- */
+    .final {
+        display: block;
+        margin: auto;
+        width: 48%;
+    }
+
+    .rowBio {
+        margin-bottom: 60px;
+    }
+
+    .col-span-3 img {
+        margin-left: 15%;
+    }
+
+    
+    /* -----Gallery PAGE----- */
+    .gallery-container {
+        width: 90vw;
+        height: 100%;
+        background-color: rgb(235, 235, 235);
+        display: block;
+        margin: 0 5%;
+        margin-bottom: 70px;
+        border-radius: 8px;
+        
+    }
+    
+    .gallery-image-container img {
+        height: 60vw;
+        width: 60vw;
+        display: block;
+        margin: auto;
+        padding: 20px;
+        border-radius: 50px;
+        position: relative;
+        left: 0%;
+    }
+    
+    .gallery-image-container p {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+    .gallery-image-container {
+        display: block;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,49 @@
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.iframe-holder {
+    height: auto;
+    display: inline-block;
+}
+
+.iframe {
+    display: inline-block;
+    width: 80vw;
+    height: 100vh;
+    margin: 10% 10%;
+    border-radius: 16px;
+}
+
+.resume-head h1 {
+    margin-top: 30px;
+}
+.resume-head p {
+    margin: auto;
+    text-align: center;
+}
+
+.education p {
+    margin: auto;
+}
+
+.professional-experience ul {
+    margin: auto;
+}
+.professional-experience p {
+    margin: auto;
+}
+
+.dates {
+    float: right;
+    display: inline;
+    padding-right: 10px;
+    margin: auto;
+}
+
+.resume-holder {
+    padding-left: 10px;
+    display: inline-block;
+}
